@@ -4,17 +4,23 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>se.jdojo.gbg</groupId>
-	<artifactId>kata-clean-code-consultant</artifactId>
+	<artifactId>kata-refactor-timed-cache</artifactId>
 	<version>1.0.0-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
-	<name>Clean Code Kata - Consultant</name>
-	<description>A kata to practice Clean Code</description>
+	<name>Basic Refactor Concurrency Kata</name>
+	<description>A kata to practice refactoring to testability, with simple synchronization</description>
 	<dependencies>
 		<dependency>
-			<groupId>junit</groupId>
+			<groupId>org.junit</groupId>
 			<artifactId>junit</artifactId>
 			<version>4.10</version>
+			<scope>test</scope>
+		</dependency>
+		<dependency>
+			<groupId>org.mockito</groupId>
+			<artifactId>mockito-all</artifactId>
+			<version>1.9.5</version>
 			<scope>test</scope>
 		</dependency>
 	</dependencies>
